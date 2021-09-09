@@ -16,7 +16,11 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' }
+      { name: 'format-detection', content: 'telephone=no' },
+      { property: 'og:type', content: 'website' },
+      { property: 'og:title', content: 'FlowerShop' },
+      { property: 'og:description', content: 'FlowerShop' },
+      { property: 'og:url', content: 'https://u0124047.github.io/FlowerShop' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
