@@ -4,6 +4,8 @@ const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
   }
 } : {}
 export default {
+  target: 'static',
+  ...routerBase,
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'FlowerShop',
